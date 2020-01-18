@@ -14,7 +14,7 @@ Color::Scheme - Generate color schemes from a base color
     my @palette = color-scheme( $color, 'six-tone-ccw' );
 
     # for this
-    my @palette = color-scheme( $color, color-scheme-angles<six-tone-ccw'> );
+    my @palette = color-scheme( $color, color-scheme-angles<six-tone-ccw> );
 
     # debug flag, to visually inspect the colors
     # creates "colors.html" in the current directory
