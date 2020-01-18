@@ -59,7 +59,7 @@ You can use the second form of the color-scheme sub to pass in your own angles i
 
 =head1 COPYRIGHT AND LICENSE
 
-BSD-3 License GPLv3
+BSD-3 License (see LICENSE file)
 
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
@@ -70,7 +70,7 @@ use v6;
 
 use Color;
 
-unit module Color::Scheme;
+unit module Color::Scheme:ver<1.001002>:auth<cpan:HOLLI>;
 
 our constant \color-scheme-angles =%= %(
     :split-complementary([0,150,320]),

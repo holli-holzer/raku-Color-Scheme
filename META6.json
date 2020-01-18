@@ -1,21 +1,23 @@
 {
   "name" : "Color::Scheme",
-  "source-url" : "git://github.com/holli-holzer/raku-Color-Scheme.git",
   "description" : "Generate color schemes from a base color",
   "version" : "1.001002",
   "perl" : "6.c",
-  "auth": "github:holli-holzer",
-  "authors": [
-    "Markus 'Holli' Holzer (holli.holzer@gmail.com)"
+  "authors" : [
+    "cpan:HOLLI"
   ],
-  "depends" : [],
-  "build-depends": [],
-  "test-depends": [],
+  "auth" : "github:holli-holzer",
+  "depends" : [
+    "Color"
+  ],
+  "build-depends" : [ ],
+  "test-depends" : [ ],
   "provides" : {
     "Color::Scheme" : "lib/Color/Scheme.pm6"
   },
-  "resources": [],
-  "tags": [],
+  "resources" : [ ],
   "license" : "BSD-3-Clause",
-  "api": 1
+  "tags" : [ ],
+  "source-url" : "git://github.com/holli-holzer/raku-Color-Scheme.git",
+  "api" : 1
 }
