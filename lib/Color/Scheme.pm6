@@ -70,7 +70,7 @@ use v6;
 
 use Color;
 
-unit module Color::Scheme:ver<1.001002>:auth<cpan:HOLLI>;
+unit module Color::Scheme:ver<1.001003>:auth<cpan:HOLLI>;
 
 our constant \color-scheme-angles =%= %(
     :split-complementary([0,150,320]),

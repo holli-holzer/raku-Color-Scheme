@@ -1,7 +1,7 @@
 {
   "name" : "Color::Scheme",
   "description" : "Generate color schemes from a base color",
-  "version" : "1.001002",
+  "version" : "1.001003",
   "perl" : "6.c",
   "authors" : [
     "cpan:HOLLI"
